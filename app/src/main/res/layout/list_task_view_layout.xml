@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/task_subject_color"
+                android:layout_width="20dp"
+                android:layout_height="70dp"
+                android:layout_column="0"
+                android:background="#FFF000" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/task_edit_id"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:visibility="invisible"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/task_subject_title"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Title"
+                        android:textSize="22dp"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/task_subject_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_column="2"
+                        android:layout_marginTop="10dp"
+                        android:text="Date"
+                        android:textColor="#d30a2c"
+                        android:textSize="17dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/task_subject_name"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_column="1"
+                        android:textColor="#000000"
+                        android:text="AI Assignment"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/task_subject_complete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:textColor="#000000"
+                        android:text="10 %"
+                        android:textSize="16dp"
+                        />
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

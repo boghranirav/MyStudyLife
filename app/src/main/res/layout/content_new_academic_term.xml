@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_new_academic_term"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nirav.mystudylife.NewAcademicTermActivity"
+    tools:showIn="@layout/activity_new_academic_term">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/sch_new_term_id"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#000000"
+                android:textSize="2dp" />
+        </TableRow>
+        <TableRow>
+
+            <EditText
+                android:id="@+id/sch_new_term_name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="Name"
+                android:textColor="#000000"
+                android:textSize="24dp" />
+        </TableRow>
+
+        <View
+
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Select Term Date"
+                android:textColor="#000000"
+                android:textSize="24dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/add_new_sch_term_fromdate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/from_date"
+                android:textSize="24dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/add_new_sch_term_todate"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/to_date"
+                android:textSize="24dp" />
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000" />
+        <TableRow>
+
+            <Button
+                android:id="@+id/add_new_schbtn_term_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#d9dde2"
+                android:text="SAVE"
+                android:textSize="24dp" />
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#000000" />
+    </TableLayout>
+
+</LinearLayout>

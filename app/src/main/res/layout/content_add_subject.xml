@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_add_subject"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nirav.mystudylife.AddSubjectActivity"
+    tools:showIn="@layout/activity_add_subject">
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <EditText
+                android:id="@+id/add_new_subject_term_id"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_span="2"
+                android:inputType="none"
+                android:textSize="24dp"
+                ></EditText>
+        </TableRow>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#000000" />
+
+
+        <TableRow>
+
+            <EditText
+
+                android:id="@+id/add_new_subject_name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="Subject Name"
+                android:layout_span="2"
+                android:inputType="text"
+                android:maxLines="1"
+                android:maxLength="30"
+                android:textColor="#000000"
+                android:textSize="24dp" />
+        </TableRow>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#000000" />
+
+        <TableRow android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="Select Color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:layout_column="0"
+                android:textColor="#000000"
+                />
+            <Button
+                android:layout_marginRight="20dp"
+                android:id="@+id/add_new_subject_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#2062af"
+                android:layout_column="1"
+                />
+        </TableRow>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#000000" />
+        <TableRow>
+            <Button
+                android:id="@+id/add_new_subject_btn_save"
+                android:text="SAVE"
+                android:layout_span="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#d9dde2"
+                android:textSize="24dp"
+                />
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#000000" />
+    </TableLayout>
+</LinearLayout>

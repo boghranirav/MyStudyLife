@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">MyStudyLife</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_schedule">ScheduleActivity</string>
+
+    <string name="action_sch_edit">Edit Selected Schedule</string>
+    <string name="action_sch_new">New Academic Year</string>
+    <string name="action_sch_subjects">Manage Subjects</string>
+    <string name="title_activity_edit_academic">EditAcademicActivity</string>
+
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="title_activity_edit_academic_term">EditAcademicTermActivity</string>
+    <string name="title_activity_new_academic_year">NewAcademicYearActivity</string>
+    <string name="title_activity_new_academic_term">NewAcademicTermActivity</string>
+    <string name="title_activity_view_subjects">ViewSubjectsActivity</string>
+    <string name="title_activity_add_subject">AddSubjectActivity</string>
+
+
+    <string-array name="color_array">
+        <item>Red</item>
+        <item>Green</item>
+    </string-array>
+
+    <string-array name="class_repeats">
+        <item>Repeats</item>
+        <item>Does Not Repeat</item>
+    </string-array>
+
+    <string-array name="task_array">
+        <item>Assignment</item>
+        <item>Reminder</item>
+        <item>Revision</item>
+    </string-array>
+
+    <string name="title_activity_add_classes">AddClassesActivity</string>
+    <string name="title_activity_class_time">ClassTimeActivity</string>
+    <string name="title_activity_view_single_class">ViewSingleClassActivity</string>
+    <string name="title_activity_edit_class">EditClassActivity</string>
+    <string name="title_activity_edit_time">EditTimeActivity</string>
+    <string name="title_activity_add_holiday">AddHolidayActivity</string>
+    <string name="title_activity_edit_holiday">EditHolidayActivity</string>
+    <string name="title_activity_exam_view">ExamViewActivity</string>
+    <string name="title_activity_past_exam">PastExamActivity</string>
+    <string name="title_activity_add_exam">AddExamActivity</string>
+    <string name="title_activity_exam_view_single">ExamViewSingleActivity</string>
+    <string name="title_activity_exam_edit">ExamEditActivity</string>
+    <string name="title_activity_task_view">TaskViewActivity</string>
+    <string name="title_activity_task_view_past">TaskViewPastActivity</string>
+    <string name="title_activity_task_add">TaskAddActivity</string>
+    <string name="title_activity_task_view_single">TaskViewSingleActivity</string>
+    <string name="title_activity_task_edit">TaskEditActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_general_setting">GeneralSettingActivity</string>
+
+
+    <string-array name="start_day_name_array">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string name="title_activity_schedule_select">ScheduleSelectActivity</string>
+    <string name="title_activity_edit_subject">EditSubjectActivity</string>
+    <string name="title_activity_edit_select_term">EditSelectTermActivity</string>
+    <string name="title_activity_view_holiday">ViewHolidayActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+
+    <string name="action_today">Today</string>
+    <string name="action_day_view">Day view</string>
+    <string name="action_three_day_view">3 day view</string>
+    <string name="action_week_view">Week view</string>
+</resources>

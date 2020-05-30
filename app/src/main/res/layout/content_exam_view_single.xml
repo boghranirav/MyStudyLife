@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_exam_view_single"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nirav.mystudylife.ExamViewSingleActivity"
+    tools:showIn="@layout/activity_exam_view_single">
+
+    <TableLayout
+        android:id="@+id/exam_back_sub_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#AAAAAA"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/view_exam_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Subject Module"
+                android:textColor="#FFFFFF"
+                android:textSize="34dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </TableRow>
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:text="Time "
+                    android:textColor="#000000"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/view_exam_time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="7"
+                    android:text="Time"
+                    android:textColor="#000000"
+                    android:textSize="24dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:text="Duration "
+                    android:textColor="#000000"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/view_exam_duration"
+                    android:layout_width="0dp"
+                    android:layout_column="1"
+                    android:layout_weight="7"
+                    android:text="Duration"
+                    android:textColor="#000000"
+                    android:textSize="24dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_column="0"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:text="Location "
+                    android:textColor="#000000"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/view_exam_building"
+                    android:layout_width="0dp"
+                    android:layout_column="1"
+                    android:layout_weight="7"
+                    android:text="Loaction"
+                    android:textColor="#000000"
+                    android:textSize="24dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:text="Seat "
+                    android:textColor="#000000"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/view_exam_seat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="7"
+                    android:text="Time"
+                    android:textColor="#000000"
+                    android:textSize="24dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_span="2"
+                    android:text="Revision Tasks"
+                    android:textColor="#1b05bc"
+                    android:textSize="24dp" />
+            </TableRow>
+
+
+            <TableRow>
+                <ListView
+                    android:id="@+id/view_exam_tasks_list"
+                    android:layout_span="2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    >
+
+                </ListView>
+            </TableRow>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="#000000" />
+
+            <TableRow>
+                <Button
+                    android:id="@+id/view_exam_edit"
+                    android:text="EDIT"
+                    android:layout_span="2"
+                    android:textSize="24dp"
+                    />
+            </TableRow>
+
+            <View
+                android:layout_height="2dp"
+                android:layout_width="wrap_content"
+                android:background="#000000" />
+        </TableLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

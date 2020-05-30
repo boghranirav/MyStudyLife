@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_c91834894ccf628def2d94ae25a53f2c429cd992.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.0_ca52513e42c80fdd6c5557ef6a570cc11c1e0444.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_d99fb0c2ce112ac3ef3ca844dbd14812886dd4b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_3fd13cb7ae9c423905de74d128ae5b6c483b8bb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_014b1d49f17da2ed5a3cb5ffcb785f7992ca2cfe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_1a56821357bb8b374b1a12044afd83719153e02e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_9bd53ee7803cbcaed9e618d461a14cccbc3ae5e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_892bb605aa25c0b3299c24d90e0bab11064cece4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_6631f07dd947cb9ff582c0ae5e83915c93d97107.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/petrov.kristiyan.colorpicker/colorpicker-library/1.1.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b52dc34011d1b703f6534b3f2ab2200b6071f5f">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/petrov.kristiyan.colorpicker-colorpicker-library-1.1.2_ceb81906e9e303c3bcbf90e0ae3ee5e824f8a65e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.0_63f21251dfad048939d01351d1d8a2e6ec13bc00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_9fbafd93bcfdb2970f2f5f2729b6c6470a9a62b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_c716b790605a4f0e8f1971b2e6f0debf81ba4961.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_8cd193cdb1b0bdd7debba134b4215f794cf65251.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.github.alamkanak/android-week-view/1.2.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="393eb85d65baa2c3702efdf699832498f8b51bf1">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/com.github.alamkanak-android-week-view-1.2.6_381a57e9a5c5c07338718be0934a5fba965e6739.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.0_efef34852d12447e5ef41ca7fe7815ab9ec2614b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_f2ebd72f68511ada46fa7ee479b4f2346e3a7ba7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_4b2c1f1da034dcead18cb2821a544b8b01ec484f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_63d3901a2686e1e88257060814829d02c01891f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/Nirav/AndroidStudioProjects/MyStudyLife/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_859600cb06a5b6cd7e2e3dec7f5d8c41e4836d00.jar" />
+    </item>
+
+</items>

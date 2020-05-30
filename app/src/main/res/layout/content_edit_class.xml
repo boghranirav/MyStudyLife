@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_edit_class"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nirav.mystudylife.EditClassActivity"
+    tools:showIn="@layout/activity_edit_class">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/class_edit_subject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_span="2"
+
+                    ></Spinner>
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/class_edit_module"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:maxLength="30"
+                    android:layout_span="2"
+                    android:hint="Module"
+                    android:textSize="24dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/class_edit_room"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_span="2"
+                    android:hint="Room"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:maxLength="10"
+                    android:textSize="24dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/class_edit_building"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_span="2"
+                    android:hint="Building"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:maxLength="30"
+                    android:textSize="24dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/class_edit_teacher"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_span="2"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:maxLength="30"
+                    android:hint="Teacher"
+                    android:textSize="24dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/class_new_time_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_span="2">
+
+                </Spinner>
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TableRow android:id="@+id/table_row_btn_time">
+
+                <Button
+                    android:id="@+id/class_edit_r_date"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_span="2"
+                    android:text="Select Date"
+                    android:textSize="24dp" />
+            </TableRow>
+
+            <TableRow android:id="@+id/table_row_date_not">
+
+                <EditText
+                    android:id="@+id/class_edit_not_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_span="2"
+                    android:hint="Select Date"
+                    android:textSize="24dp" />
+            </TableRow>
+
+
+            <TableRow android:id="@+id/table_row_s_e_time">
+
+                <EditText
+                    android:id="@+id/class_edit_s_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Time From"
+                    android:textSize="24dp" />
+
+                <EditText
+                    android:id="@+id/class_edit_e_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Time To"
+                    android:textSize="24dp" />
+            </TableRow>
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/class_edit_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:background="#d9dde2"
+                    android:text="SAVE"
+                    android:textSize="24dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="#000000" />
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/class_edit_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:background="#d9dde2"
+                    android:text="DELETE"
+                    android:textSize="24dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="#000000" />
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

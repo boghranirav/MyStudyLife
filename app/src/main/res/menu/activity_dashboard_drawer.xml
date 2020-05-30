@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="Calendar" />
+        <item
+            android:id="@+id/nav_tasks"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="Tasks" />
+        <item
+            android:id="@+id/nav_exams"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="Exams" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="Schedule" />
+        <item
+            android:id="@+id/nav_holiday"
+            android:icon="@drawable/ic_weekend_black_24dp"
+            android:title="Holiday" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+
+
+</menu>
